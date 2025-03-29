@@ -18,10 +18,10 @@ const Footer = () => {
               <a href="https://github.com/omariomari2" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-pomoprimary transition-colors">
                 <Github size={20} />
               </a>
-              <a href="#" className="text-gray-500 hover:text-pomoprimary transition-colors">
+              <a href="https://x.com/omariii_vs" className="text-gray-500 hover:text-pomoprimary transition-colors">
                 <Twitter size={20} />
-              </a>
-              <a href="mailto:info@example.com" className="text-gray-500 hover:text-pomoprimary transition-colors">
+              </a> 
+              <a href="mailto:owusuomaribright.com" className="text-gray-500 hover:text-pomoprimary transition-colors">
                 <Mail size={20} />
               </a>
             </div>
@@ -79,7 +79,7 @@ const Footer = () => {
             &copy; {new Date().getFullYear()} Pomodoro Play. All rights reserved.
           </p>
           <p className="text-gray-500 text-sm mt-2 md:mt-0 flex items-center">
-            Made with <Heart size={14} className="text-red-500 mx-1" /> by Omar
+            Made by Omari
           </p>
         </div>
       </div>
