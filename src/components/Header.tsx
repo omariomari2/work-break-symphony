@@ -8,7 +8,7 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center">
-            <span className="text-2xl font-bold bg-clip-text text-transparent bg-pomo-gradient hover:opacity-80 transition-opacity">
+            <span className="text-2xl font-bold bg-clip-text text-transparent bg-pomo-gradient hover:opacity-80 transition-all duration-300 hover:scale-105">
               Pomodoro Play
             </span>
           </div>
@@ -29,7 +29,7 @@ const Header = () => {
               target="_blank" 
               rel="noopener noreferrer"
             >
-              <Button className="bg-pomo-gradient hover:bg-pomo-gradient hover:opacity-80 transition-opacity">
+              <Button className="bg-pomo-gradient hover:bg-pomo-gradient hover:opacity-80 transition-all duration-300 hover:scale-105">
                 <Github className="mr-2 h-4 w-4" />
                 Get Started
               </Button>

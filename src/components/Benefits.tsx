@@ -48,15 +48,21 @@ const Benefits = () => {
             
             <div>
               <h3 className="text-2xl font-semibold mb-4">What Users Are Saying</h3>
-              <div className="bg-white rounded-xl shadow-md p-6 border border-gray-100">
+              <div className="bg-white rounded-xl shadow-md p-6 border border-gray-100 hover:shadow-lg transition-shadow">
                 <p className="text-gray-700 italic mb-4">
                   "Pomodoro Play completely changed how I work. The combination of timers and ambient music keeps me focused, while the mini-games make my breaks actually refreshing!"
                 </p>
                 <div className="flex items-center">
-                  <div className="w-10 h-10 bg-gray-200 rounded-full mr-3"></div>
+                  <div className="w-10 h-10 rounded-full mr-3 overflow-hidden">
+                    <img 
+                      src="/lovable-uploads/e4e77f72-1ba5-4c2e-b648-ceb5be8b5963.png" 
+                      alt="Johnson" 
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
                   <div>
-                    <p className="font-medium">Alex Johnson</p>
-                    <p className="text-sm text-gray-500">Software Developer</p>
+                    <p className="font-medium">Johnson</p>
+                    <p className="text-sm text-gray-500">Student</p>
                   </div>
                 </div>
               </div>
