@@ -72,7 +72,7 @@ const Benefits = () => {
           <div className="relative">
             <div className="relative z-10 glass-card rounded-xl p-4 shadow-xl max-w-md mx-auto">
               <img 
-                src="/placeholder.svg" 
+                src="/lovable-uploads/e4e77f72-1ba5-4c2e-b648-ceb5be8b5963.png" 
                 alt="Pomodoro Play in action" 
                 className="w-full h-auto rounded-lg mb-4" 
               />
