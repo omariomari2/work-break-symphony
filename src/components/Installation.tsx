@@ -20,11 +20,11 @@ const Installation = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
               <div className="text-center p-6 border border-dashed border-gray-200 rounded-lg hover:border-pomoprimary transition-colors duration-300">
                 <Chrome className="h-12 w-12 text-pomoprimary mx-auto mb-4" />
-                <h3 className="text-xl font-semibold mb-2">From Chrome Web Store</h3>
-                <p className="text-gray-600 mb-4">Install directly from the Chrome Web Store</p>
-                <Button className="bg-pomo-gradient hover:bg-pomo-gradient-hover">
+                <h3 className="text-xl font-semibold mb-2">Chrome Web Store</h3>
+                <p className="text-gray-600 mb-4">Coming Soon to the Chrome Web Store</p>
+                <Button className="bg-pomo-gradient hover:bg-pomo-gradient hover:opacity-80 transition-opacity" disabled>
                   <Chrome className="mr-2 h-4 w-4" />
-                  Add to Chrome
+                  Coming Soon
                 </Button>
               </div>
               
@@ -37,7 +37,7 @@ const Installation = () => {
                   target="_blank" 
                   rel="noopener noreferrer"
                 >
-                  <Button className="bg-pomo-gradient hover:bg-pomo-gradient-hover">
+                  <Button className="bg-pomo-gradient hover:bg-pomo-gradient hover:opacity-80 transition-opacity">
                     <Github className="mr-2 h-4 w-4" />
                     View on GitHub
                   </Button>
@@ -56,7 +56,7 @@ const Installation = () => {
                       href="https://github.com/omariomari2" 
                       target="_blank" 
                       rel="noopener noreferrer" 
-                      className="inline-flex items-center text-pomoprimary hover:underline mt-1"
+                      className="inline-flex items-center text-pomoprimary hover:underline hover:opacity-80 transition-opacity mt-1"
                     >
                       Visit Repository <ExternalLink className="ml-1 h-3 w-3" />
                     </a>
