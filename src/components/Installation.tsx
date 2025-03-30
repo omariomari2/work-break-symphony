@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Github, Chrome, Download, ExternalLink } from "lucide-react";
 
@@ -33,7 +32,7 @@ const Installation = () => {
                 <h3 className="text-xl font-semibold mb-2">From GitHub</h3>
                 <p className="text-gray-600 mb-4">Download and install from the source</p>
                 <a 
-                  href="https://github.com/omariomari2" 
+                  href="https://github.com/omariomari2/Pomodoro-Play.git" 
                   target="_blank" 
                   rel="noopener noreferrer"
                 >
@@ -53,7 +52,7 @@ const Installation = () => {
                   <div>
                     <p>Download the extension from GitHub.</p>
                     <a 
-                      href="https://github.com/omariomari2" 
+                      href="https://github.com/omariomari2/Pomodoro-Play.git" 
                       target="_blank" 
                       rel="noopener noreferrer" 
                       className="inline-flex items-center text-pomoprimary hover:underline hover:opacity-80 transition-opacity mt-1"

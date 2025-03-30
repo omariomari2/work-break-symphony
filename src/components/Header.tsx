@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Github } from "lucide-react";
 
@@ -25,7 +24,7 @@ const Header = () => {
           </nav>
           <div>
             <a 
-              href="https://github.com/omariomari2" 
+              href="https://github.com/omariomari2/Pomodoro-Play.git" 
               target="_blank" 
               rel="noopener noreferrer"
             >

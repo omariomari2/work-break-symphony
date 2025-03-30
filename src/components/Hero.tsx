@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Github, ChevronDown } from "lucide-react";
 
@@ -26,7 +25,7 @@ const Hero = () => {
             </p>
             <div className="space-x-4">
               <a 
-                href="https://github.com/omariomari2" 
+                href="https://github.com/omariomari2/Pomodoro-Play.git" 
                 target="_blank" 
                 rel="noopener noreferrer"
               >

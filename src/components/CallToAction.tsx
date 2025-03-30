@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Clock, ArrowRight } from "lucide-react";
 
@@ -19,7 +18,7 @@ const CallToAction = () => {
             Join thousands of users who have improved their work habits and achieved better focus with Pomodoro Play. Start your productivity journey today!
           </p>
           <a 
-            href="https://github.com/omariomari2" 
+            href="https://github.com/omariomari2/Pomodoro-Play.git" 
             target="_blank" 
             rel="noopener noreferrer"
           >
