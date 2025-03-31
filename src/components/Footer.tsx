@@ -14,7 +14,7 @@ const Footer = () => {
               break cycles effectively with customizable features.
             </p>
             <div className="flex space-x-4">
-              <a href="https://github.com/omariomari2/Pomodoro-Play.git" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-pomoprimary transition-colors">
+              <a href="https://github.com/omariomari2" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-pomoprimary transition-colors">
                 <Github size={20} />
               </a>
               <a href="https://x.com/omariii_vs" className="text-gray-500 hover:text-pomoprimary transition-colors">
