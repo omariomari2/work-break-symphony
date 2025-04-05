@@ -1,15 +1,14 @@
-
 import { Check } from "lucide-react";
 
 const Benefits = () => {
   return (
     <section id="benefits" className="py-20 bg-white relative overflow-hidden">
-      <div className="absolute -top-40 -right-40 w-96 h-96 bg-pomoblue opacity-10 rounded-full blur-3xl"></div>
-      <div className="absolute -bottom-40 -left-40 w-96 h-96 bg-pomopink opacity-10 rounded-full blur-3xl"></div>
+      <div className="absolute -top-40 -right-40 w-96 h-96 bg-pomoblue opacity-10 rounded-full blur-3xl animate-pulse-subtle"></div>
+      <div className="absolute -bottom-40 -left-40 w-96 h-96 bg-pomopink opacity-10 rounded-full blur-3xl animate-pulse-subtle"></div>
       
       <div className="section-container relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-          <div>
+          <div className="animate-slide-in-left">
             <div className="mb-12">
               <h2 className="text-3xl md:text-4xl font-bold mb-6">
                 Transform Your Work Habits
@@ -18,32 +17,28 @@ const Benefits = () => {
                 Pomodoro Play helps you develop structured work habits while balancing productive focus time with essential breaks.
               </p>
               
-              <ul className="space-y-4">
-                <li className="flex items-start">
-                  <div className="bg-green-100 rounded-full p-1 mr-3 mt-1">
-                    <Check className="h-4 w-4 text-green-600" />
+              <div className="space-y-6">
+                <div className="flex items-start space-x-3 animate-slide-in-left [animation-delay:200ms]">
+                  <div className="flex-shrink-0">
+                    <Check className="h-6 w-6 text-pomoprimary" />
                   </div>
-                  <span className="text-gray-700">Improve focus with dedicated work sessions</span>
-                </li>
-                <li className="flex items-start">
-                  <div className="bg-green-100 rounded-full p-1 mr-3 mt-1">
-                    <Check className="h-4 w-4 text-green-600" />
+                  <p className="text-gray-600">Customizable work and break durations to match your natural rhythm</p>
+                </div>
+                
+                <div className="flex items-start space-x-3 animate-slide-in-left [animation-delay:400ms]">
+                  <div className="flex-shrink-0">
+                    <Check className="h-6 w-6 text-pomoprimary" />
                   </div>
-                  <span className="text-gray-700">Reduce burnout with structured break times</span>
-                </li>
-                <li className="flex items-start">
-                  <div className="bg-green-100 rounded-full p-1 mr-3 mt-1">
-                    <Check className="h-4 w-4 text-green-600" />
+                  <p className="text-gray-600">Integrated task management to keep you organized and focused</p>
+                </div>
+                
+                <div className="flex items-start space-x-3 animate-slide-in-left [animation-delay:600ms]">
+                  <div className="flex-shrink-0">
+                    <Check className="h-6 w-6 text-pomoprimary" />
                   </div>
-                  <span className="text-gray-700">Track your daily productivity patterns</span>
-                </li>
-                <li className="flex items-start">
-                  <div className="bg-green-100 rounded-full p-1 mr-3 mt-1">
-                    <Check className="h-4 w-4 text-green-600" />
-                  </div>
-                  <span className="text-gray-700">Stay motivated with progress visualizations</span>
-                </li>
-              </ul>
+                  <p className="text-gray-600">Ambient sounds and music to enhance your concentration</p>
+                </div>
+              </div>
             </div>
             
             <div>
@@ -69,14 +64,14 @@ const Benefits = () => {
             </div>
           </div>
           
-          <div className="relative">
+          <div className="animate-slide-in-right">
             <div className="relative z-10 glass-card rounded-xl p-4 shadow-xl max-w-md mx-auto">
               <img 
                 src="/lovable-uploads/e4e77f72-1ba5-4c2e-b648-ceb5be8b5963.png" 
                 alt="Pomodoro Play in action" 
-                className="w-full h-auto rounded-lg mb-4" 
+                className="w-full h-auto rounded-lg mb-4 animate-scale-in" 
               />
-              <div className="bg-white rounded-lg p-4 shadow-sm">
+              <div className="bg-white rounded-lg p-4 shadow-sm animate-fade-in [animation-delay:200ms]">
                 <h4 className="font-semibold mb-2">Your Productivity Summary</h4>
                 <div className="space-y-2">
                   <div className="flex justify-between items-center">
@@ -84,7 +79,7 @@ const Benefits = () => {
                     <span className="font-medium">3h 45m</span>
                   </div>
                   <div className="w-full bg-gray-200 rounded-full h-2">
-                    <div className="bg-pomoprimary h-2 rounded-full" style={{ width: '75%' }}></div>
+                    <div className="bg-pomoprimary h-2 rounded-full animate-slide-in-left" style={{ width: '75%' }}></div>
                   </div>
                   
                   <div className="flex justify-between items-center mt-4">
@@ -92,14 +87,14 @@ const Benefits = () => {
                     <span className="font-medium">7/10</span>
                   </div>
                   <div className="w-full bg-gray-200 rounded-full h-2">
-                    <div className="bg-pomoprimary h-2 rounded-full" style={{ width: '70%' }}></div>
+                    <div className="bg-pomoprimary h-2 rounded-full animate-slide-in-left [animation-delay:200ms]" style={{ width: '70%' }}></div>
                   </div>
                 </div>
               </div>
             </div>
             
-            <div className="absolute top-20 -right-8 w-24 h-24 bg-pomoblue rounded-full opacity-20 blur-xl"></div>
-            <div className="absolute bottom-20 -left-8 w-24 h-24 bg-pomopink rounded-full opacity-20 blur-xl"></div>
+            <div className="absolute top-20 -right-8 w-24 h-24 bg-pomoblue rounded-full opacity-20 blur-xl animate-pulse-subtle"></div>
+            <div className="absolute bottom-20 -left-8 w-24 h-24 bg-pomopink rounded-full opacity-20 blur-xl animate-pulse-subtle"></div>
           </div>
         </div>
       </div>

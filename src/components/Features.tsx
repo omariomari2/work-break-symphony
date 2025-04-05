@@ -1,4 +1,3 @@
-
 import { Clock, Music, Gamepad2, ListTodo, Clock3, Bell } from "lucide-react";
 
 const features = [
@@ -38,7 +37,7 @@ const Features = () => {
   return (
     <section id="features" className="py-20 bg-gray-50">
       <div className="section-container">
-        <div className="text-center mb-16">
+        <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             Powerful Features for Enhanced Productivity
           </h2>
@@ -51,9 +50,10 @@ const Features = () => {
           {features.map((feature, index) => (
             <div 
               key={index} 
-              className="feature-card flex flex-col items-start"
+              className="feature-card flex flex-col items-start animate-scale-in"
+              style={{ animationDelay: `${index * 150}ms` }}
             >
-              <div className="bg-pomoblue/20 p-3 rounded-lg mb-4">
+              <div className="bg-pomoblue/20 p-3 rounded-lg mb-4 animate-float">
                 {feature.icon}
               </div>
               <h3 className="text-xl font-semibold mb-2">{feature.title}</h3>
